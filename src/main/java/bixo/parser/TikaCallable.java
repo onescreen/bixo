@@ -23,7 +23,7 @@ import org.apache.tika.sax.TeeContentHandler;
 
 import bixo.datum.ParsedDatum;
 
-class TikaCallable implements Callable<ParsedDatum> {
+public class TikaCallable implements Callable<ParsedDatum> {
     private static final Logger LOGGER = Logger.getLogger(TikaCallable.class);
     
     private static class CustomHtmlMapper extends DefaultHtmlMapper {

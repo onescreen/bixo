@@ -79,7 +79,8 @@ public class SimpleCrawlWorkflow {
 
 
     @SuppressWarnings("serial")
-    private static class SplitFetchedUnfetchedCrawlDatums extends BaseSplitter {
+	public
+    static class SplitFetchedUnfetchedCrawlDatums extends BaseSplitter {
 
         @Override
         public String getLHSName() {
